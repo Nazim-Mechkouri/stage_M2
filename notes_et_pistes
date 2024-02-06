@@ -1,0 +1,21 @@
+###############################################################################################
+
+# Sur orthoMaM j'ai trouvé 168 espèces ayant un orthologue de PTEN sur les 190 espèces (normalement uniquement des espèces présentes sur NCBI et qui sont les mieux séquencées)
+
+#Sur orthoDB (swiss), je trouve 105 orthologues chez les mammifères, soit cfette BD est trop vieille soit ils sont plus stringeants dans le choix des espèces (mais proviennent de NCBI aussi)
+
+# Pour vérifier ça, j'ai téléchargé l'ensemble des orthologues du gène PTEN de l'humain chez l'ensemble des mamifères présents sur NCBI (script + outil en ligne de commande ci dessous) (PS : j'ai trouvé 217 orthologues chez des espèces uniques, donc je serai plutôt de l'avis de OrthoMaM qui en plus de ça nous donne l'arbre le plus parcimonieux avec fichier newick + code symbol pour chacun des clades chez les mammifères) !!
+
+# commande de l'outil NCBI (télécharger les executables au préalable sur leur site NIH) : 
+
+datasets download gene symbol PTEN --ortholog mammals --include gene,rna 
+
+(guide complet voir site internet ou github personnel : https://github.com/Nazim-Mechkouri/codes_stage/blob/main/scripts_NCBI/script_download_all_genes_orthologous.sh)
+
+#commande pour compter le nombre d'espèces dans le fichier gene.fna : 
+
+cat gene.fna | grep "^>" | awk -F '[' '{print $2}' | sort -u | wc -l
+
+###############################################################################################
+
+# A suivre.

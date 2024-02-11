@@ -1,0 +1,39 @@
+
+Depuis son identification en tant que gène fréquemment muté sur le chromosome 10q23, d'immenses progrès ont été réalisés dans la compréhension de la fonction et de la régulation de PTEN. PTEN agit en tant que phosphatase lipidique, opposant la voie de signalisation pro-survie et oncogène PI3K-AKT-mTOR, et intègre des boucles de rétroaction complexes au sein de cette voie. De nouvelles études ont révélé que PTEN possède des activités supplémentaires indépendantes de sa fonction phosphatase et des fonctions indépendantes de la voie PI3K-AKT dans le noyau. La réalisation que de légères variations dans les niveaux de protéine PTEN peuvent avoir d'énormes conséquences sur l'initiation des tumeurs et la susceptibilité au cancer souligne l'importance de comprendre les mécanismes qui contrôlent la fonction de PTEN, offrant ainsi des opportunités thérapeutiques passionnantes.
+
+Un puzzle intrigant est apparu suite aux récentes études sur l'importance fonctionnelle des niveaux de PTEN au sein d'une cellule. Alors que la fonction canonique de PTEN est de mettre un "frein" à la prolifération et à la survie cellulaire, la perte de la fonction de PTEN était attendue pour libérer ces mécanismes. Cependant, au lieu de favoriser davantage le cancer, une perte complète de PTEN est fortement suppressive des tumeurs et beaucoup moins tumorigénique qu'une perte hétérozygote de PTEN. Ce paradoxe apparent a récemment été résolu et semble être dû à l'activation de la sénescence cellulaire suite à une perte complète de PTEN, comme mécanisme de sécurité dans un phénomène que nous appelons "haploinsuffisance obligatoire". Par conséquent, un objectif des études futures est de tirer parti de la perte complète de PTEN et de l'activation de la sénescence cellulaire à des fins thérapeutiques.
+
+Régulation de PTEN par les enhancers
+Approche intégrée de criblage CRISPRa et analyse de topologie nucléaire
+Identification de 10 enhancers distincts régulant PTEN
+Organisation tridimensionnelle des enhancers de PTEN
+Enhancers fonctionnels à longue distance régulant PTEN
+Amélioration de la prédiction des enhancers validés par la prise en compte de la séparation spatiale
+Modèle d'organisation des enhancers intégrant la séparation spatiale des composants fonctionnels et structuraux
+Impact sur la régulation de l'expression génique et l'activité régulatrice des enhancers
+Hétérogénéité de l'organisation enhancer-promoteur chez PTEN
+Nouvelle compréhension de la régulation de PTEN et de la perte fréquente observée dans les tumeurs
+
+
+Voici quelques informations clés basées sur des articles scientifiques académiques parus avant 2021 concernant le gène PTEN :
+
+Structure et fonction de PTEN :
+
+PTEN est un gène suppresseur de tumeur qui code pour une protéine phosphatase.
+Il agit principalement en inhibant la voie de signalisation PI3K/AKT/mTOR, régulant ainsi la croissance, la survie et la prolifération cellulaires.
+Implication dans les maladies :
+
+Les mutations de PTEN sont impliquées dans un large éventail de maladies, notamment le cancer, le syndrome de Cowden, le syndrome de Bannayan-Riley-Ruvalcaba, et des maladies neurodéveloppementales comme l'autisme.
+Voies métaboliques affectées :
+
+PTEN joue un rôle crucial dans la régulation du métabolisme cellulaire, en particulier du métabolisme du glucose, des lipides et du glycogène.
+Son activité phosphatase régule également des voies métaboliques essentielles telles que la glycolyse, la lipogenèse et la synthèse du glycogène.
+Rôle de certains enhancers dans l'expression de PTEN :
+
+L'expression de PTEN est régulée par des enhancers qui influencent son expression dans différents tissus et contextes cellulaires.
+Ces enhancers peuvent être sensibles à divers signaux environnementaux et intracellulaires, modulant ainsi l'expression de PTEN selon les besoins de la cellule.
+Implication dans la maladie de Cowden :
+
+La maladie de Cowden est causée par des mutations de PTEN et se caractérise par le développement de tumeurs bénignes et malignes dans divers tissus, notamment la peau, le sein, la thyroïde et le tractus gastro-intestinal.
+Les patients atteints du syndrome de Cowden ont un risque accru de développer différents types de cancers, soulignant l'importance de PTEN dans la suppression tumorale.
+En présentant ces informations clés, vous fournissez un aperçu complet du rôle crucial de PTEN dans la régulation de divers processus cellulaires et de son implication dans plusieurs maladies, notamment le cancer et le syndrome de Cowden.

@@ -1,0 +1,47 @@
+Species missing in the Newick file:
+
+
+
+
+				 |-Boreotheria  <-------------- Les espèces manquantes sont ici !! Mammalia; Theria; Eutheria; Boreoeutheria;
+		      |-Eutheria-|
+		      |		 |-Afrotheria
+	   |--Theria--|
+	   |	      |
+	   |	      |	-Metatheria
+Mammalia __| 
+	   |
+	   |
+	   |--Prototheria
+
+
+
+
+Galemys_pyrenaicus			RONGEUR
+Tupaia_chinensis			RONGEUR
+Peromyscus_leucopus			RONGEUR
+Neotoma_lepida				RONGEUR
+Grammomys_surdaster			RONGEUR
+
+Ovis_ammon_polii			RUMINANT(BOVIDE)
+Ovis_ammon_polii x Ovis_aries		RUMINANT(BOVIDE)
+Cervus_hanglu_yarkandensis		RUMINANT(CERF)
+Muntiacus_muntjak			RUMINANT(CERF)
+Odocoileus_virginianus_texanus		RUMINANT(RENNE)
+Rangifer_tarandus_platyrhynchus		RUMINANT(RENNE)
+
+Crocuta_crocuta				CARNIVORE/FELIFORME
+Lynx_pardinus				CARNIVORE/FELIFORME
+Callorhinus_ursinus			CARNIVORE/OTARIE
+
+
+Ursus_maritimus				OURS
+Gulo_gulo_luscus			URSINE
+Smutsia_gigantea			POLIDOTA(Pangolin)
+Eptesicus_nilssonii			MICROCHIRPTERA(Chauve-souris)
+Saimiri_boliviensis_boliviensis		PRIMATE(NEW WORLD MONKEY)
+Lepus_europaeus				GLIRE (Lapin)
+Pontoporia_blainvillei			CETACE(Dauphin)
+
+
+

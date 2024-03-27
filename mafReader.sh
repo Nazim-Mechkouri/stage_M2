@@ -27,7 +27,8 @@ Help()
    RED='\033[1;33m'
    NC='\033[0m'
 
-   echo "####This script takes 6 arguments as follow and in this order"
+   echo
+   echo "####	This script takes 6 arguments as follow and in this order	####"
    echo
    echo
    echo -e "${RED}Usage : ${NC}./mafReader.sh MAFfile SpecieGenome ChrNumber Start-Coordonate End-Coordonate OutputFile"

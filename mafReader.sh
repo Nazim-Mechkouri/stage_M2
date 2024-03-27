@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#SBATCH -c 1 # Number of cores on the same node
-#SBATCH --partition=igh # specifies the partiton of the queue
-#SBATCH -o slurmlog/slurmlogmytask_%j.out # File to which STDOUT will be written, %j will be replaced by the jobID
-#SBATCH -e slurmlog/slurmlogmytask_%j.err # File to which STDERR will be written, %j will be replaced by the jobID.
+# SBATCH -c 1 # Number of cores on the same node
+# SBATCH --partition=igh # specifies the partiton of the queue
+# SBATCH -o slurmlog/slurmlogmytask_%j.out # File to which STDOUT will be written, %j will be replaced by the jobID
+# SBATCH -e slurmlog/slurmlogmytask_%j.err # File to which STDERR will be written, %j will be replaced by the jobID.
 
 ################################################################################
-# This scripts filters mulputiple alignment files .maf using UTR data          #
+# This scripts filters mulputiple alignment files .maf                         #
 #                                                                              #
 # If problems encoutered concerning the input or usage of the script           #
 # please refer to the help section below or use : ./mafReader -h               #
@@ -27,15 +27,16 @@ Help()
    RED='\033[1;33m'
    NC='\033[0m'
 
-   echo "####This script takes 5 arguments as follow and in this order"
+   echo "####This script takes 6 arguments as follow and in this order"
    echo
    echo
-   echo -e "${RED}Usage : ${NC}./mafReader.sh mafFile UTRFile SeedMatchStrand+ SeedMatchStrand- SpecieCentered"
+   echo -e "${RED}Usage : ${NC}./mafReader.sh MAFfile SpecieGenome ChrNumber Start-Coordonate End-Coordonate OutputFile"
    echo
    echo -e "${RED}-mafFile :${NC} obtained from UCSC genome browser data"
-   echo -e "${RED}-UTRFile :${NC} containing all the UTR positions of genes of the specie that the mafFile is centered on"
-   echo -e "${RED}-SeedMatchStrand :${NC} Target sequence of the desired miRNA, the seedMatch sequence of both strands is needed"
-   echo -e "${RED}-SpecieCentered :${NC} ID of the ${RED}specie${NC}  that the maf file is centered on : for example 'hg38' or 'galGal6'"
+   echo -e "${RED}-SpecieGenome & ChrNumber :${NC} name of the genome.assembly as it is referenced in the maf file (ex : hg38,mmus19,CanFam5,BosTau9 ...etc). ChrNumber only ("10" and not "chr10")"
+   echo -e "${RED}-Start-Coordonate :${NC} Start of the targeted sequence to be looked for"
+   echo -e "${RED}-End-Coordonate :${NC} End of the targeted sequence to be looked for"
+   echo -e "${RED}-End-Coordonate :${NC} End of the targeted sequence to be looked for"
 
 }
 
